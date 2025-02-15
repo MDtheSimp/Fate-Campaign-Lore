@@ -1,8 +1,8 @@
 {
   "vaultName": "Fate Campaign lore",
-  "lastExport": 1739648968712,
+  "lastExport": 1739649298617,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon highlightr-realistic",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -27,6 +27,32 @@
     "The Wandering Sea.md",
     "The World of Type Moon.md",
     "True Ancestors.md",
+    "images/pasted-image-20250214003433.png",
+    "images/pasted-image-20250214084515.png",
+    "images/pasted-image-20250210203937.png",
+    "images/pasted-image-20250210203841.png",
+    "images/pasted-image-20250210192013.png",
+    "images/pasted-image-20250210194923.png",
+    "images/pasted-image-20250210195753.png",
+    "images/pasted-image-20250211194122.png",
+    "images/pasted-image-20250211200159.png",
+    "images/pasted-image-20250212200349.png",
+    "images/pasted-image-20250212192728.png",
+    "images/pasted-image-20250212225143.png",
+    "images/pasted-image-20250213181001.png",
+    "images/pasted-image-20250212185531.png",
+    "images/pasted-image-20250212192309.png",
+    "images/pasted-image-20250214202020.png",
+    "images/pasted-image-20250212002153.png",
+    "images/pasted-image-20250205180512.png",
+    "images/pasted-image-20250204114027.png",
+    "images/pasted-image-20250205182211.png",
+    "images/pasted-image-20250205212408.png",
+    "images/pasted-image-20250205211812.png",
+    "images/pasted-image-20250212212454.png",
+    "images/pasted-image-20250214165852.png",
+    "images/pasted-image-20250214164939.png",
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -40,9 +66,25 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/6155340132a851f6089e.svg"
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -56,217 +98,514 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/6155340132a851f6089e.svg"
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "fileInfo": {
     "Alaya.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 1890,
-      "exportedPath": "Alaya.html",
+      "exportedPath": "alaya.html",
       "dependencies": []
     },
     "Current Events.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 880,
-      "exportedPath": "Current Events.html",
+      "exportedPath": "current-events.html",
       "dependencies": []
     },
     "Dead Apostles.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 12328,
-      "exportedPath": "Dead Apostles.html",
-      "dependencies": []
+      "exportedPath": "dead-apostles.html",
+      "dependencies": [
+        "images/pasted-image-20250214003433.png",
+        "images/pasted-image-20250214084515.png"
+      ]
     },
     "Gaia.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 3270,
-      "exportedPath": "Gaia.html",
+      "exportedPath": "gaia.html",
       "dependencies": []
     },
     "Magecraft.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 13157,
-      "exportedPath": "Magecraft.html",
-      "dependencies": []
+      "exportedPath": "magecraft.html",
+      "dependencies": [
+        "images/pasted-image-20250210203937.png",
+        "images/pasted-image-20250210203841.png",
+        "images/pasted-image-20250210192013.png",
+        "images/pasted-image-20250210194923.png",
+        "images/pasted-image-20250210195753.png"
+      ]
     },
     "Mystery.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 2502,
-      "exportedPath": "Mystery.html",
+      "exportedPath": "mystery.html",
       "dependencies": []
     },
     "Other Factions.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 1295,
-      "exportedPath": "Other Factions.html",
+      "exportedPath": "other-factions.html",
       "dependencies": []
     },
     "Pf2e to Type Moon Conversion.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 6167,
-      "exportedPath": "Pf2e to Type Moon Conversion.html",
+      "exportedPath": "pf2e-to-type-moon-conversion.html",
       "dependencies": []
     },
     "Philosophy Magecraft.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 2040,
-      "exportedPath": "Philosophy Magecraft.html",
+      "exportedPath": "philosophy-magecraft.html",
       "dependencies": []
     },
     "Psychics.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 4566,
-      "exportedPath": "Psychics.html",
-      "dependencies": []
+      "exportedPath": "psychics.html",
+      "dependencies": [
+        "images/pasted-image-20250211194122.png",
+        "images/pasted-image-20250211200159.png"
+      ]
     },
     "The Atlas Institute.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 4698,
-      "exportedPath": "The Atlas Institute.html",
-      "dependencies": []
+      "exportedPath": "the-atlas-institute.html",
+      "dependencies": [
+        "images/pasted-image-20250212200349.png",
+        "images/pasted-image-20250212192728.png"
+      ]
     },
     "The Church.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 12256,
-      "exportedPath": "The Church.html",
-      "dependencies": []
+      "exportedPath": "the-church.html",
+      "dependencies": [
+        "images/pasted-image-20250212225143.png",
+        "images/pasted-image-20250213181001.png"
+      ]
     },
     "The Clock Tower.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 3340,
-      "exportedPath": "The Clock Tower.html",
-      "dependencies": []
+      "exportedPath": "the-clock-tower.html",
+      "dependencies": [
+        "images/pasted-image-20250212185531.png",
+        "images/pasted-image-20250212192309.png"
+      ]
     },
     "The Counter Force.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 3177,
-      "exportedPath": "The Counter Force.html",
+      "exportedPath": "the-counter-force.html",
       "dependencies": []
     },
     "The Holy Grail War.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 4563,
-      "exportedPath": "The Holy Grail War.html",
-      "dependencies": []
+      "exportedPath": "the-holy-grail-war.html",
+      "dependencies": [
+        "images/pasted-image-20250214202020.png"
+      ]
     },
     "The Mage's Association.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 4168,
-      "exportedPath": "The Mage's Association.html",
+      "exportedPath": "the-mage's-association.html",
       "dependencies": []
     },
     "The Magi.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 5365,
-      "exportedPath": "The Magi.html",
-      "dependencies": []
+      "exportedPath": "the-magi.html",
+      "dependencies": [
+        "images/pasted-image-20250212002153.png"
+      ]
     },
     "The planes of Existence.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 4598,
-      "exportedPath": "The planes of Existence.html",
-      "dependencies": []
+      "exportedPath": "the-planes-of-existence.html",
+      "dependencies": [
+        "images/pasted-image-20250205180512.png",
+        "images/pasted-image-20250204114027.png",
+        "images/pasted-image-20250205182211.png",
+        "images/pasted-image-20250205212408.png",
+        "images/pasted-image-20250205211812.png"
+      ]
     },
     "The Wandering Sea.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 2858,
-      "exportedPath": "The Wandering Sea.html",
-      "dependencies": []
+      "exportedPath": "the-wandering-sea.html",
+      "dependencies": [
+        "images/pasted-image-20250212212454.png"
+      ]
     },
     "The World of Type Moon.md": {
-      "modifiedTime": 1739648968712,
-      "sourceSize": 2157,
-      "exportedPath": "The World of Type Moon.html",
+      "modifiedTime": 1739649298617,
+      "sourceSize": 2053,
+      "exportedPath": "the-world-of-type-moon.html",
       "dependencies": []
     },
     "True Ancestors.md": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 6515,
-      "exportedPath": "True Ancestors.html",
+      "exportedPath": "true-ancestors.html",
+      "dependencies": [
+        "images/pasted-image-20250214165852.png",
+        "images/pasted-image-20250214164939.png"
+      ]
+    },
+    "images/pasted-image-20250214003433.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 887231,
+      "exportedPath": "images/pasted-image-20250214003433.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250214084515.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 756916,
+      "exportedPath": "images/pasted-image-20250214084515.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250210203937.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 934961,
+      "exportedPath": "images/pasted-image-20250210203937.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250210203841.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1760473,
+      "exportedPath": "images/pasted-image-20250210203841.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250210192013.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1687646,
+      "exportedPath": "images/pasted-image-20250210192013.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250210194923.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1082161,
+      "exportedPath": "images/pasted-image-20250210194923.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250210195753.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 931749,
+      "exportedPath": "images/pasted-image-20250210195753.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250211194122.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 282968,
+      "exportedPath": "images/pasted-image-20250211194122.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250211200159.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1160296,
+      "exportedPath": "images/pasted-image-20250211200159.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212200349.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 445191,
+      "exportedPath": "images/pasted-image-20250212200349.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212192728.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1308491,
+      "exportedPath": "images/pasted-image-20250212192728.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212225143.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 817300,
+      "exportedPath": "images/pasted-image-20250212225143.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250213181001.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 407522,
+      "exportedPath": "images/pasted-image-20250213181001.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212185531.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1129795,
+      "exportedPath": "images/pasted-image-20250212185531.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212192309.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1044254,
+      "exportedPath": "images/pasted-image-20250212192309.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250214202020.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1308728,
+      "exportedPath": "images/pasted-image-20250214202020.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212002153.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 339360,
+      "exportedPath": "images/pasted-image-20250212002153.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250205180512.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 795321,
+      "exportedPath": "images/pasted-image-20250205180512.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250204114027.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1446322,
+      "exportedPath": "images/pasted-image-20250204114027.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250205182211.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 229993,
+      "exportedPath": "images/pasted-image-20250205182211.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250205212408.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1343199,
+      "exportedPath": "images/pasted-image-20250205212408.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250205211812.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1294165,
+      "exportedPath": "images/pasted-image-20250205211812.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250212212454.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1462074,
+      "exportedPath": "images/pasted-image-20250212212454.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250214165852.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 425076,
+      "exportedPath": "images/pasted-image-20250214165852.png",
+      "dependencies": []
+    },
+    "images/pasted-image-20250214164939.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 779122,
+      "exportedPath": "images/pasted-image-20250214164939.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1739648968712,
+      "modifiedTime": 1739649298617,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 7416,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 1642,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 137228,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 16404,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 722641,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 262,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1739649298617,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }
